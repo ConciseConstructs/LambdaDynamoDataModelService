@@ -4,7 +4,7 @@
   "main": "index.js",
   "author": "Concise Constructs LLC",
   "license": "ISC",
-  "description": "This is the server side code to manipulate the Contact data model.",
+  "description": "This is the server side code to manipulate the !!REPLACE data model.",
   "dependencies": {
     "aws-sdk": "^2.439.0"
   },
