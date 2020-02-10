@@ -182,7 +182,7 @@ functions:
 
 
   update:
-    timeout: 180 # optional, in seconds, default is 6
+    timeout: 30 # optional, in seconds, default is 6.  Any function tied to an Api Gateway is limited to 30
     handler: ${self:custom.pathToHandler}/update.handler
     package:
       include:
@@ -197,7 +197,7 @@ functions:
 
 
   delete:
-    timeout: 180 # optional, in seconds, default is 6
+    timeout: 30 # optional, in seconds, default is 6.  Any function tied to an Api Gateway is limited to 30
     handler: ${self:custom.pathToHandler}/delete.handler
     package:
       include:
